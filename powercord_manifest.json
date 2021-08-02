@@ -4,5 +4,5 @@
     "license": "MIT",
     "theme": "theme.scss",
     "name": "Chatty",
-    "description": "Just a theme which looks nice and is customizable."
+    "description": "Just a theme which looks nice and is customizable. Originally made by rob#1160, now maintained by me."
 }
