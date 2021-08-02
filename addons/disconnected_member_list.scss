@@ -1,0 +1,33 @@
+#app-mount .app-2rEoOp .chat-3bRxxu {
+    background: none !important;
+}
+#app-mount .app-2rEoOp .chat-3bRxxu .container-1r6BKw.themed-ANHk51 {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 0px var(--chattyBorderRadius) 0px;
+}
+.chatContent-a9vAAp {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 0px var(--chattyBorderRadius) 0px
+}
+.chatContent-a9vAAp:before {
+    content: ' ';
+    background: #ffffff00;
+    height: var(--chattyBorderRadius);
+    width: var(--chattyBorderRadius);
+    position: absolute;
+    top:0;
+    right: calc(0px - var(--chattyBorderRadius));
+    border-top-left-radius: var(--chattyBorderRadius);
+    overflow: hidden;
+}
+.chatContent-a9vAAp::after {
+    content: 'brufffh';
+    background: #ffffffaa;
+    height: var(--chattyBorderRadius);
+    width: var(--chattyBorderRadius);
+    position: absolute;
+    top:0;
+    right: calc(0px - var(--chattyBorderRadius));
+    border-top-left-radius: var(--chattyBorderRadius);
+    box-shadow: 0px 0px 0px calc(var(--chattyBorderRadius) / 2) rgba(0, 0, 0, 0.6);
+}

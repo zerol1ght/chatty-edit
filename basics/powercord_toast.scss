@@ -1,0 +1,34 @@
+.powercord-toast {
+    background-image: #fff !important;
+    border: none !important;
+    overflow: hidden !important;
+    box-shadow: var(--elevation-high) !important;
+    border-radius: var(--chattyBorderRadius) !important;
+    .header {
+        background: rgba(0,0,0,0.4) !important;
+        z-index: 2; 
+        box-shadow: none !important;
+    }
+    .contents {
+        z-index: 2;
+        .inner {
+            background: none !important;
+            border: none !important;
+        }
+    }
+    .buttons {
+        z-index: 2;
+    }
+}
+.powercord-toast:before {
+    content: '';
+    position: absolute;
+    background: var(--chattyBackgroundImage);
+    filter:brightness(0.4) blur(10px);
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 1;
+    transform: scale(1.2);
+}

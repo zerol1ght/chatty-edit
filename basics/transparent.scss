@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono");
+@import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
+
+
+#app-mount {
+    background-image: var(--chattyBackgroundImage) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    .typeWindows-1za-n7 {
+        background-color: #934039;
+        background: transparent !important;
+        height: 18px;
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+    .app-2rEoOp {
+        background: transparent !important;
+        backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+        .bg-h5JY_x {
+            background: transparent !important;
+        }
+        .wrapper-1Rf91z {
+            background: transparent !important;
+            padding-top: 6px;
+            .scroller-2TZvBN {
+                background: transparent !important;
+                .listItem-2P_4kh {
+                    .wrapper-25eVIn {
+                        .svg-1X37T1 {
+                            overflow: hidden;
+                            mask {
+                                display: none;
+                            }
+                        }
+                        .wrapper-1BJsBx {
+                            border-radius: 100%;
+                            overflow: hidden;
+                        }
+                        .wrapper-1BJsBx.selected-bZ3Lue {
+                            border-radius: var(--chattyBorderRadius);
+                        }
+                        .circleIconButton-jET_ig {
+                            border-radius: var(--chattyBorderRadius);
+                            background: rgba(0,0,0,0.4);
+                        }
+                        .folderIconWrapper-226oVY {
+                            border-radius: var(--chattyBorderRadius);
+                            overflow: hidden;
+                        }
+                        .folder-21wGz3 {
+                            background: transparent !important;
+                        }
+                    }
+                }
+                .wrapper-21YSNc {
+                    .expandedFolderBackground-2sPsd- {
+                        background: rgba(0,0,0,0.4);
+                        border-radius: var(--chattyBorderRadius);
+                        padding-top: 48px;
+                        margin-bottom: 17px;
+                    }
+                }
+            }
+        }
+        .sidebar-2K8pFh {
+            background: rgba(0,0,0,0.4);
+            border-radius: var(--chattyBorderRadius);
+            margin-top: var(--chattyPadding);
+            margin-bottom: var(--chattyPadding);
+            .container-3w7J-x {
+                background: transparent;
+                .header-2V-4Sw {
+                    box-shadow: none;
+                }
+            }
+            .privateChannels-1nO12o {
+                background: transparent;
+                .searchBar-6Kv8R2 {
+                    box-shadow: none;
+                    .searchBarComponent-32dTOx {
+                        text-align: center ;
+                        background: rgba(0,0,0,0.4);
+                        color: #888;
+                    }
+                }
+                .scroller-1JbKMe {
+                    background: transparent;
+                }
+            }
+            .panels-j1Uci_ {
+                background: transparent;
+            }
+        }
+        .container-1D34oG {
+            background: rgba(0,0,0,0.6);
+            margin: var(--chattyPadding);
+            border-radius: var(--chattyBorderRadius);
+            .container-1r6BKw.themed-ANHk51 {
+                background: rgba(0,0,0,0.4);
+                .children-19S4PO::after {
+                        display: none !important;
+                }
+            }
+            .actionButton-uPB8Fs {
+                border-radius: var(--chattyBorderRadius);
+                background: rgba(0,0,0,0.4);
+            }
+            .nowPlayingColumn-2sl4cE {
+                background: transparent;
+                .consentCard-1iSxB_ {
+                    background: rgba(0,0,0,0.4);
+                }
+                .itemCard-v9viV7 {
+                    background: rgba(0,0,0,0.4);
+                }
+            }
+        }
+        .chat-3bRxxu {
+            background: rgba(0,0,0,0.6);
+            margin: var(--chattyPadding);
+            border-radius: var(--chattyBorderRadius);
+            .container-1r6BKw.themed-ANHk51 {
+                background: transparent;
+                .children-19S4PO:after {
+                    opacity: 0;
+                }
+                .searchBar-3dMhjb {
+                    background: rgba(0,0,0,0.4);
+                }
+            }
+            .content-yTz4x3:before {
+                display: none;
+            }
+            .messagesWrapper-1sRNjr {
+                background: transparent;
+                .blockquoteDivider-2hH8H6 {
+                    width: 0px;
+                }
+                blockquote {
+                    background: rgba(0,0,0,0.4);
+                    border-radius: var(--chattyBorderRadius);
+                    padding: 8px;
+                }
+                .imageWrapper-2p5ogY{
+                    border-radius: var(--chattyBorderRadius);
+                    box-shadow: var(--elevationHigh);
+                    transition: 0.2s ease-in-out;
+                }
+                .imageWrapper-2p5ogY:hover {
+                    transform: scaleY(1.02) scaleX(1.02);
+                }
+                .video-8eMOth {
+                    border-radius: var(--chattyBorderRadius);
+                    box-shadow: var(--elevationHigh);
+                }
+                .embedFull-2tM8-- {
+                    background: rgba(0,0,0,0.4);
+                    border-left: 0px;
+                    border-bottom: var(--chattyBorderRadius) solid;
+                    border-radius: var(--chattyBorderRadius);
+                    box-shadow: var(--elevationHigh);
+                    .grid-1nZz7S {
+                        padding-top: 3px;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .form-2fGMdU:before {
+                opacity: 0;
+            }
+            .channelTextArea-rNsIhG {
+                background: rgba(0,0,0,0.4);
+                border-radius: var(--chattyBorderRadius);
+                .scrollableContainer-2NUZem {
+                    background: transparent !important;
+                }
+            }
+            .members-1998pB {
+                background: transparent !important;
+                > div {
+                    background: transparent !important;
+                }
+            }
+        }
+        .noChannel-Z1DQK7 {
+            background: transparent;
+            border-radius: var(--chattyBorderRadius);
+            margin: var(--chattyPadding);
+            .image-1GzsFd {
+                display: none;
+            }
+            .flexChild-faoVW3 {
+                background: rgba(0,0,0,0.4);
+                padding: 20px;
+                border-radius: var(--chattyBorderRadius);
+                .title-2BxgL2 {
+                    color: #f53e3e;
+                    text-shadow: #f53e3e 0px 0px 0px;
+                    transition: 0.4s ease-in-out;
+                }
+                .title-2BxgL2:hover {
+                    text-shadow: #f53e3e 0px 0px 20px;
+                }
+                .text-GwUZgS {
+                    color: #c0c0c0;
+                }
+            }
+        }
+    }
+}
+*::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: var(--chattyBorderRadius) !important;
+}
+*::-webkit-scrollbar-track-piece {
+    background: transparent!important;
+    border: transparent !important;
+}
+code {
+    background: rgba(0,0,0,0.6) !important;
+    border: none !important;
+    border-radius: var(--chattyBorderRadius) !important;
+}
+
+
+
+
+// Things added by Light#0853
+
+
+
+
+// RTC Connection Status Card
+.theme-dark .container-2x5lvQ section {
+    background-color :rgba(0, 0, 0, 0);
+}
+.theme-dark .container-2x5lvQ .header-2C89wJ {
+    background-color: rgba(0, 0, 0, 0);
+}
+.container-2x5lvQ {
+    width: 250px;
+    border-radius: 15px;
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+    background: rgb(0, 0, 0, 0.4);
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+}
+
+// Screen Sharing Card
+.theme-dark .root-1gCeng {
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+}
+.theme-dark .footer-2gL1pp {
+    background-color: #00000000;
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+}
+.backdropWithLayer-3_uhz4 {
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+}
+
+// Screen Sharing Grid
+
+.wrapper-2qzCYF {
+    z-index: 2;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: transparent !important;
+    overflow: hidden;
+}
+
+// Connected Users and Total User Text Color
+
+.wrapper-2tAnRe {
+    color:rgba(255, 255, 255, 0.7);
+
+}
+// Last Message Date Text Color
+
+.content-1o0f9g {
+    color:rgba(255, 255, 255, 0.7)
+}
+
+// [Game Activity] Added Games Hover
+
+.theme-dark .card-FDVird:before {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: var(--background-primary);
+}
+
+// [Game Activity] Add Game Menu
+
+.theme-dark .addGamePopout-2RY8Ju {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7) !important;
+}
+
+// Server Roles
+
+.scroller-305q3I {
+    background-color: transparent !important;
+}
+
+// Floating Menus
+
+.menu-3sdvDG {
+    border-radius: 15px;
+    // still not found how to bg blur without buggging the "add reaction" section
+}
+
+// Rapid Reactions BG
+
+.button-F9qN4n {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+// Rapid Actions on Messages
+
+.wrapper-2aW0bm {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+// Custom Discord Text
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+  }
+  .theme-dark .wordmark-2iDDfm:after {
+    font-family: "Discord";
+    content: "ZEROLIGHT";
+    font-size: 12px;
+    background: rgba(235, 235, 228, 0.521);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 5px;
+  }
+
+// User Popouts | last update 02/08/2021 |
+
+.userPopout-xaxa6l {
+    max-height: 600px !important;
+    border-radius: var(--chattyBorderRadius) !important	;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 20px black;
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+}
+
+.avatar-37jOim {
+    border: 6px solid transparent !important;
+    background-color: transparent !important;
+}
+
+.bodyInnerWrapper-26fQXj {
+    background-color: transparent !important;
+}
+
+.footer-3UKYOU {
+    background-color: transparent !important;
+}
+
+.textarea-2r0oV8:focus {
+    background-color: var(--background-primary); 
+}
+
+//-------------------------------------
+
+
+// Font Changed Things
+
+
+// Server Names
+
+.name-1jkAdW {
+    font-family: Discord;
+}
+
+// Buttons
+
+.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp {
+    font-family: Discord;
+}
+
+// Roles Groups
+
+.membersGroup-v9BXpm {
+    font-family: Discord;
+}
+
+//-------------------------------------
+
+
+
+//Spotify "Add to Playlist"
+
+.inner-1ilYF7 {
+    background: none !important;
+    backdrop-filter: blur(var(--chattyBlur));
+}
+
+.modal-yWgWj- {
+    background-color: transparent !important;
+}
+
+.header-1TKi98 {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.content-1LAB8Z {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.footer-2gL1pp  {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.playlist {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+// Server Roles *updated*
+
+.contentRegion-3nDuYy {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.contentRegionScroller-26nc1e {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.contentWidth-xLB44s {
+    max-width: none;
+}
+
+.stickyHeader-hH_ZLl {
+    border-radius: var(--chattyBorderRadius);
+}
+
+.list-I3aHXn {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.page-3njELR {
+    max-width: none !important;
+}
+
+.titleContainer-2CXtJo {
+    background: none;
+}
+
+.toolsContainer-1edPuj {
+    padding-top: 20px;
+}
+
+.scroller-Utb7tO {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.scroller-3ZpLaI {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.list-3a9fyp {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.scroller-1J_F7B {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+    max-width: none;
+}
+
+.headerDefault-1wrJcN, .headerClickable-2IVFo9 {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+// Server List Scroller
+.scroller-1Bvpku {
+    background-color: transparent !important;
+}
+
+.powerclock.sticky {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    
+}
+
+.guilds-1SWlCJ {
+    background-color: transparent !important;
+}
+
+// Chat 
+
+#app-mount .app-2rEoOp .chat-3bRxxu {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+//PiP Video
+
+.pictureInPictureWindow-1B5qSe {
+    box-shadow: 0px 0px 50px black;
+}
+
+// Server Boost Page
+
+.perksModal-fSYqOq {
+    background-color: var(--background-primary) !important;
+}
+
+.ctaBar-2UsjF2 {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+.tier-12tKuZ {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+.perk-2WeBWW {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+
+// -------------------------------------
+
+// My account page fix 
+
+.accountProfileCard-1XCH88 {
+    background-color: transparent !important;
+    background: transparent !important;
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+    border-radius: var(--chattyBorderRadius) !important;
+}
+
+.accountProfileCard-1XCH88 {
+    box-shadow: 0px 0px 20px black;
+}
+
+.settingsBanner-15-pZk {
+	height: 250px;
+}
+
+.avatar-1uQSZT {
+	top: 230px;
+    border: 7px solid transparent !important;
+    background-color: transparent !important;
+}
+
+.fieldButton-27bJrp {
+    margin-right: 10px;
+}
+
+// Account Data Position Fix
+
+.fieldTitle-3h2iLW {
+    margin-left: 20px !important;
+    margin-top: 10px !important;
+}
+
+.colorHeaderPrimary-26Jzh- {
+    margin-left: 40px !important;
+}
+
+// -------------------------------------
+
+
+// Chat overlay bug fix
+
+.scroller-2LSbBU {
+    bottom: 10px;
+}
+
+// Threads
+
+.threadSidebar-1o3BTy {
+    margin: var(--chattyPadding);
+    border-radius: var(--chattyBorderRadius);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent !important;
+}
+
+// Nitro Page
+
+.applicationStore-1pNvnv {
+    background-color: transparent !important;
+    margin: var(--chattyPadding);
+}
+
+.homeWrapperNormal-2KSUEa {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: var(--chattyBorderRadius);
+}
+
+.scroller-9moviB {
+    background-color: transparent !important
+}
+
+//

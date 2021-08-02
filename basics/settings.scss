@@ -1,0 +1,48 @@
+.layers-3iHuyZ {
+    .layer-3QrUeG {
+        background: transparent;
+        .standardSidebarView-3F1I7i {
+            background: transparent;
+            margin: var(--chattyPadding);
+            .sidebarRegion-VFTUkN {
+                margin-right: var(--chattyPadding);
+                flex: 0 0 218px;
+                border-radius: var(--chattyBorderRadius);
+                overflow: hidden;
+                background: transparent;
+                .sidebar-CFHs9e {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    background: transparent;
+                }
+                .sidebarRegionScroller-3MXcoP {
+                    background: rgba(0,0,0,0.6);
+                }
+            }
+            .contentRegion-3nDuYy {
+                width: 100px;
+                background: transparent;
+                border-radius: var(--chattyBorderRadius);
+                overflow: hidden;
+                .contentRegionScroller-26nc1e {
+                    background: rgba(0,0,0,0.6);
+                    .contentColumn-2hrIYH  {
+                        max-width: 100%;
+                        .background-1QDuV2 {
+                            border-radius: var(--chattyBorderRadius);
+                            background: rgba(0,0,0,0.3);
+                            padding: 20px;
+                            .avatarUploaderInner-3UNxY3 {
+                                border-radius: var(--chattyBorderRadius);
+                            }
+                            .fieldList-21DyL8 {
+                                border-radius: var(--chattyBorderRadius);
+                                background: rgba(0,0,0,0.3);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
