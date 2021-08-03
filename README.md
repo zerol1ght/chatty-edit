@@ -4,6 +4,13 @@ Chatty is a customizable sleek-looking Discord theme, intended for the Powercord
 Originally made by [mrrobboss](https://github.com/mrrobboss), now maintained by me.
 # Features
 [X] Custom Background Images, by default daily images from [Unsplash](https://unsplash.com/)
+# How to set a custom background image
+On powercord, go to "**settings --> themes --> quick css**" and paste this:
+```css
+:root {
+  --chattyBackgroundImage: url(insert your image link here) !important;
+}
+```
 # Updates
 I'll try to update the theme every time I see bugs or something that isn't working, if you notice a bug that is annoying you can contact me.
 # Images
