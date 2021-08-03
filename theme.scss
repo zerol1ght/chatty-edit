@@ -7,7 +7,7 @@
 @import 'image.scss';
 
 :root {
-    --chattyBackgroundImage: var(--wallpaper);
+    --chattyBackgroundImage: url(https://source.unsplash.com/daily);
     --chattyBorderRadius: 15px;
     --chattyPadding: 10px;
     --chattyBlur: 5px;
