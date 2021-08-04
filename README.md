@@ -21,3 +21,4 @@ You can contact me on:
 - **Discord:** Light#0853
   - *You can dm me or just @tag me in Powercord's server*
 - **Mail:**  zerol1ght@protonmail.com
+- **Discord:** Xyhlo#9766
