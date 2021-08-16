@@ -16,9 +16,28 @@ On powercord, go to "**settings --> themes --> quick css**" and paste this:
 I'll try to update the theme every time I see bugs or something that isn't working, if you notice a bug that is annoying you can contact me.
 # Images
 ![image1](https://i.imgur.com/CVI0sUh.png)
+
+# Customisation +
+Change this variables only if you know what you're doing!
+### **I DO NOT GARANTEE THAT IT WILL WORK IN EVERY PART OF THE THEME**
+Paste this in the Quick CSS and edit it
+```css
+:root {
+    --chattyBorderRadius: 15px !important;
+    --chattyPadding: 10px !important;
+    --chattyBlur: 5px !important;
+    --interactive-muted: #D08770 !important;
+    --background-primary: rgba(0, 0, 0, 0.2) !important;
+    --background-secondary: rgba(0, 0, 0, 0.3) !important;
+    --background-secondary-alt: rgba(0, 0, 0, 0.3) !important;
+    --background-tertiary: rgb(39, 39, 39) !important;
+}
+```
+
 # Contacts
 You can contact me on:
 - **Discord:** Light#0853
   - *You can dm me or just @tag me in Powercord's server*
 - **Mail:**  zerol1ght@protonmail.com
 - **Discord:** Xyhlo#9766
+
