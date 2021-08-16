@@ -240,7 +240,7 @@ code {
 }
 .container-2x5lvQ {
     width: 250px;
-    border-radius: 15px;
+    border-radius: var(--chattyBorderRadius);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
     background: rgb(0, 0, 0, 0.4);
@@ -310,7 +310,7 @@ code {
 // Floating Menus
 
 .menu-3sdvDG {
-    border-radius: 15px;
+    border-radius: var(--chattyBorderRadius);
     // still not found how to bg blur without buggging the "add reaction" section
 }
 
