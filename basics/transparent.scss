@@ -95,6 +95,7 @@
         .container-1D34oG {
             background: rgba(0,0,0,0.6);
             margin: var(--chattyPadding);
+            margin-top: 5px !important;
             border-radius: var(--chattyBorderRadius);
             .container-1r6BKw.themed-ANHk51 {
                 background: rgba(0,0,0,0.4);
@@ -119,6 +120,7 @@
         .chat-3bRxxu {
             background: rgba(0,0,0,0.6);
             margin: var(--chattyPadding);
+            margin-top: 5px !important;
             border-radius: var(--chattyBorderRadius);
             .container-1r6BKw.themed-ANHk51 {
                 background: transparent;
@@ -187,6 +189,7 @@
             background: transparent;
             border-radius: var(--chattyBorderRadius);
             margin: var(--chattyPadding);
+            margin-top: 5px !important;
             .image-1GzsFd {
                 display: none;
             }
@@ -582,6 +585,7 @@ code {
 
 .threadSidebar-1o3BTy {
     margin: var(--chattyPadding);
+    margin-top: 5px !important;
     border-radius: var(--chattyBorderRadius);
     background: rgba(0, 0, 0, 0.4);
 }
@@ -595,6 +599,7 @@ code {
 .applicationStore-1pNvnv {
     background-color: transparent !important;
     margin: var(--chattyPadding);
+    margin-top: 5px !important;
 }
 
 .homeWrapperNormal-2KSUEa {
@@ -606,4 +611,11 @@ code {
     background-color: transparent !important
 }
 
+// Title Bar Blur Fix --- 06 september
+.typeWindows-1za-n7 {
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7) !important;
+}
+.sidebar-2K8pFh {
+    margin-top: 5px !important;
+}
 //----
