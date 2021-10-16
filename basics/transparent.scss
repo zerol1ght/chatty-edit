@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono");
-@import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
+@import url("https://jatin-jindal.github.io/discordfont/DiscordFont.css");
 
 
 #app-mount {
@@ -617,5 +617,10 @@ code {
 }
 .sidebar-2K8pFh {
     margin-top: 5px !important;
+}
+
+// Video Grid Fix
+.callContainer-36WRfH {
+    background-color: transparent !important;
 }
 //----
