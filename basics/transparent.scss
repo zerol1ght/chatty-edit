@@ -346,7 +346,7 @@ code {
     top: 5px;
   }
 
-// User Popouts | last update 02/08/2021 |
+// User Popouts | last update 02/08/2021 ->  04/01/2022 | 
 
 .userPopout-xaxa6l {
     max-height: 600px !important;
@@ -361,6 +361,10 @@ code {
     background-color: transparent !important;
 }
 
+.avatar-AvHqJA {
+    border: 8px solid transparent !important;
+}
+
 .bodyInnerWrapper-26fQXj {
     background-color: transparent !important;
 }
@@ -372,6 +376,12 @@ code {
 .textarea-2r0oV8:focus {
     background-color: var(--background-primary); 
 }
+
+.body-r6_QPy, .topSection-y3p-_D {
+    background-color: transparent !important;
+}
+
+
 
 //-------------------------------------
 
@@ -611,7 +621,7 @@ code {
     background-color: transparent !important
 }
 
-// Title Bar Blur Fix --- 06 september
+// Title Bar Blur Fix --- 06 september 2021
 .typeWindows-1za-n7 {
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7) !important;
 }
@@ -623,4 +633,57 @@ code {
 .callContainer-36WRfH {
     background-color: transparent !important;
 }
-//----
+
+//--------
+
+// members bar fix --- 04 january 2022 
+.container-2wlB3z {
+    background: transparent !important;
+}
+
+// navigation bar fix
+.navigationBar-2JJXBp {
+    background-color: transparent !important;
+}
+
+// join-create server popup fix
+.header-1TKi98 {
+    background-color: transparent !important;
+}
+.content-1LAB8Z {
+    background-color: transparent !important;
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: transparent !important;
+}
+
+.close-hZ94c6 {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+.base-1x0h_U {
+    color: white;
+}
+
+.container-UC8Ug1:hover {
+    background-color: rgba(255, 255, 255, 0.609) !important;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: #5865f2;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: #5865f2b4;
+}
+
+// "no one else is here yet. invite people to join you!" card background remove
+.tile-2naSqK {
+    background-color: transparent !important;
+}
+
+.button-3HqqDX {
+    background-color: #f47fff !important;
+}
