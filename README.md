@@ -12,6 +12,12 @@ On powercord, go to "**settings --> themes --> quick css**" and paste this:
   --chattyBackgroundImage: url(insert your image link here) !important;
 }
 ```
+Example
+```css
+:root {
+  --chattyBackgroundImage: url(http://website.com/image.png) !important;
+}
+```
 # Updates
 I'll try to update the theme every time I see bugs or something that isn't working, if you notice a bug that is annoying you can contact me.
 # Images
