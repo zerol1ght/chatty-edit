@@ -252,10 +252,7 @@ code {
 }
 
 // Screen Sharing Card
-.theme-dark .root-g14mjS {
-    background-color: rgba(0,0,0,0);
-    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
-}
+
 .theme-dark .footer-31IekZ {
     background-color: #00000000;
     box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
@@ -337,7 +334,7 @@ code {
   }
   .theme-dark .wordmark-2u86JB:after {
     font-family: "Discord";
-    content: "ZEROLIGHT";
+    content: "Chatty";
     font-size: 12px;
     background: rgba(235, 235, 228, 0.521);
     background-size: 400% 400%;
@@ -347,42 +344,93 @@ code {
     top: 5px;
   }
 
-// User Popouts | last update 02/08/2021 ->  04/01/2022 | 
+// User Popouts | last update 02/08/2021 ->  04/01/2022 -> 22/09/2022 | 
 
-.userPopout-2j1gM4 {
-    max-height: 600px !important;
+.userPopout-29jUdN {
     border-radius: var(--chattyBorderRadius) !important	;
     background-color: transparent !important;
     box-shadow: 0px 0px 20px black;
+}
+
+div[id^="popout_"] {
+  backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+  border-radius: var(--chattyBorderRadius);
+}
+
+.userPopoutInnerWithBanner-24GX6I, .userPopoutInnerNonPremium-1EOFgI, .userPopoutInner-1v4xcM,.userPopoutInnerWithoutTheme-53VYav, .userPopoutInnerNonPremium-1EOFgI {
+    background: transparent !important;
+}
+
+.overlayBackground-2Zjm9f {
+    background-color: transparent !important;
+    margin: 20px 10px 10px;
+}
+
+.profileBadges-31rDHI {
+    background-color: transparent !important;
+    box-shadow: 0px 0px 15px -3px black;
+}
+
+// Pfp misalignment fix
+
+.bannerSVGWrapper-qc0szY mask {
+  display: none;
+}
+
+.userPopout-2j1gM4 .wrapper-1VLyxH::before,
+.avatar-3QF_VA::before {
+  content: " ";
+  font-size: 0px;
+  background-color: transparent;
+  float: left;
+  border-radius: 50%;
+  height: 94px;
+  width: 94px;
+  margin: -7px;
+}
+
+.avatar-3QF_VA::before {
+  height: 136px;
+  width: 136px;
+  margin: -8px;
+}
+
+.userPopout-2j1gM4 [class^="avatarWrapper"] .wrapper-1VLyxH,
+.avatarHint-k7pYop {
+  top: 9px;
+}
+
+// Profile Modal
+
+.root-g14mjS {
+    border-radius: var(--chattyBorderRadius);
+    background-color: transparent !important;
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
-}
 
-.avatar-2Vndt_ {
-    border: 6px solid transparent !important;
-    background-color: transparent !important;
-}
-
-.avatar-3QF_VA {
-    border: 8px solid transparent !important;
-}
-
-.bodyInnerWrapper-2bQs1k {
-    background-color: transparent !important;
-}
-
-.footer-3naVBw {
-    background-color: transparent !important;
-}
-
-.textarea-_59yqs:focus {
-    background-color: var(--background-primary); 
 }
 
 .body-1Ukv50, .topSection-13QKHs {
     background-color: transparent !important;
+    
 }
 
+.avatar-3QF_VA {
+    border: 8px solid transparent !important;
+    background-color: transparent !important;
+}
 
+.connectedAccountContainer-SlCC-S {
+    background-color: var(--background-primary);
+    border-radius: var(--chattyBorderRadius);
+}
+
+.badgeList-2aoHPw {
+    background-color: var(--background-primary);
+    border-radius: var(--chattyBorderRadius);
+    padding-right: 2px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
 
 //-------------------------------------
 
@@ -521,22 +569,38 @@ code {
 
 // Server Boost Page
 
-.perksModal-fSYqOq {
+.ctaBar-Nhk8yY {
+    border-radius: var(--chattyBorderRadius) !important;
+}
+
+.tierMarkerBackground-G8FoN4 {
     background-color: var(--background-primary) !important;
 }
 
-.ctaBar-2UsjF2 {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+.perksModal-CLcR1c {
+    background-color: transparent !important;
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
-.tier-12tKuZ {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+.tierHeader-wgo0w_ {
+    border-top-left-radius: var(--chattyBorderRadius) !important;
+    border-top-right-radius: var(--chattyBorderRadius) !important;
 }
 
-.perk-2WeBWW {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+.tierBody-3ju-rc {
+    background-color: var(--background-primary) !important;
+    border-bottom-left-radius: var(--chattyBorderRadius) !important;
+    border-bottom-right-radius: var(--chattyBorderRadius) !important;
 }
 
+.tierWrapper-CsnudO, .tier-lFqDUs {
+    border-radius: var(--chattyBorderRadius) !important;
+}
+
+.perk-19D_HN {
+    background-color: var(--background-primary) !important;
+    border-radius: var(--chattyBorderRadius) !important;
+}
 
 // -------------------------------------
 
@@ -563,19 +627,8 @@ code {
     background-color: transparent !important;
 }
 
-.fieldButton-14lHvK {
-    margin-right: 10px;
-}
-
-// Account Data Position Fix
-
-.fieldTitle-2g5r_V {
-    margin-left: 20px !important;
-    margin-top: 10px !important;
-}
-
-.colorHeaderPrimary-jN_yGr {
-    margin-left: 40px !important;
+.fieldList-in8WkP {
+    background-color: transparent !important;
 }
 
 // -------------------------------------
@@ -587,17 +640,34 @@ code {
     bottom: 10px;
 }
 
-// Threads
-
-.threadSidebar-1o3BTy {
-    margin: var(--chattyPadding);
-    margin-top: 5px !important;
-    border-radius: var(--chattyBorderRadius);
-    background: rgba(0, 0, 0, 0.4);
-}
+// Threads -- 11 september 2022
 
 .container-ZMc96U.themed-Hp1KC_ {
     background: transparent !important;
+}
+
+.floating-3M3WeH {
+    background-color: var(--background-floating) !important;
+    border-left: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    max-height: 60% !important;
+}
+
+.container-3XgAHv {
+    background-color: rgba(0,0,0,0.5);
+    margin: var(--chattyPadding);
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    border-radius: var(--chattyBorderRadius) !important;
+}
+
+.threadSidebarOpen-1LSXvU {
+    margin-right: 5px !important;
+}
+
+.threadSidebarFloating-uC2s6v {
+    margin-right: var(--chattyPadding) !important;
 }
 
 // Nitro Page
@@ -681,4 +751,27 @@ code {
 .buttonIcon-2Zsrs2 {
     width: 15px;
     height: 15px;
+}
+
+// profile customization screen fix
+
+.contentColumnWide-2CgNjO {
+    padding-left: 80px;
+}
+
+// voice chat connected users icons
+
+.avatarSmall-3qwAkA {
+    width: 26px !important;
+    height: 26px !important;
+}
+
+// Post Q&A
+
+.container-3wLKDe {
+  background-color: transparent !important;
+}
+
+.container-3YcgdM {
+  background-color: transparent;
 }
