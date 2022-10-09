@@ -21,22 +21,25 @@ Example
 }
 ```
 # Use with Vencord
-For use with Vencord, either `@import url` the pre-compiled css file from its raw URL (coming soon), or compile it yourself.
+For use with Vencord, either `@import url("https://raw.githubusercontent.com/zerol1ght/chatty-edit/master/theme.scss")` to use the pre-compiled version, or compile it for yourself and copy the contents over to your quick css file.
 ## Acquiring [Sass](https://sass-lang.com)
 In order to compile the Sass yourself, you'll need to have Sass available on your system, for which a few options exist.
 
 Available on all operating systems:
-1. [Standalone install](https://sass-lang.com/install) as per the instructions on the website
-2. [Node.js Sass](https://www.npmjs.com/package/node-sass) `npm i -g sass`. This needs to be globally installed for it to be available on your system PATH.
-3. [Ruby Sass](https://rubydoc.info/gems/sass-embedded) `gem install sass-embedded`. Assuming Ruby executables are available system-wide, this should just work as-is. Otherwise, try adding the `--no-user-install` flag.
+1. [Standalone install](https://sass-lang.com/install) as per the instructions on the website, built on Dart Sass
+2. [Node.js Sass](https://www.npmjs.com/package/node-sass) `npm i -g sass`. This needs to be globally installed for it to be available on your system PATH. Built on Dart Sass.
+3. [Ruby Sass](https://rubydoc.info/gems/sass-embedded) `gem install sass`. Assuming Ruby's `bin` folder is in your PATH, this should work as-is.
 
 For OS-specific installation methods, there are options like the Chocolatey package manager for Windows, Homebrew on Mac and your package manager or community repositories of choice for different Linux and Unix distributions.
 ## Compilation with Sass
 This should be one easy command! Assuming you run it from the root of this repository:
 ```sh
-$ sass theme.scss chatty-edit.css
+# When using either Dart Sass or the npm Sass package
+$ sass --update --no-source-map theme.scss chatty-edit.css
+# Or with Ruby Sass
+$ sass --update --sourcemap=none theme.scss chatty-edit.css
 ```
-When using this with Vencord, copy the contents to your quickcss file.
+If you wish to output to a new file, you'll have to remove the `--update` flag as there is nothing to update yet.
 # Updates
 I'll try to update the theme every time I see bugs or something that isn't working, if you notice a bug that is annoying you can contact me.
 # Images
@@ -64,3 +67,5 @@ You can contact me on:
 - **Discord:** Light#0853
   - *You can dm me or just @tag me in [Powercord's server](https://discord.gg/SA7VN6rUVb)*
 - **Mail:**  zerol1ght@protonmail.com
+
+For Vencord support, contact Riven Skaye#0042 in the [Vencord server](https://discord.gg/vencord).
