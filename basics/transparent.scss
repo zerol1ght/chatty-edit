@@ -247,7 +247,7 @@ code {
     border-radius: var(--chattyBorderRadius);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
-    background: rgb(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
