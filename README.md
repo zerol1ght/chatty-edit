@@ -46,7 +46,7 @@ I'll try to update the theme every time I see bugs or something that isn't worki
 ![image1](https://i.imgur.com/CVI0sUh.png)
 
 # Customisation +
-Change this variables only if you know what you're doing!
+Change these variables only if you know what you're doing!
 ### **I DO NOT GARANTEE THAT IT WILL WORK IN EVERY PART OF THE THEME**
 Paste this in the Quick CSS and edit it
 ```css
