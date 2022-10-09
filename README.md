@@ -34,7 +34,7 @@ For OS-specific installation methods, there are options like the Chocolatey pack
 ## Compilation with Sass
 This should be one easy command! Assuming you run it from the root of this repository:
 ```sh
-# When using either Dart Sass or the npm Sass package
+# When using Dart Sass
 $ sass --update --no-source-map theme.scss chatty-edit.css
 # Or with Ruby Sass
 $ sass --update --sourcemap=none theme.scss chatty-edit.css
