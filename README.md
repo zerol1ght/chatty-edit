@@ -21,7 +21,7 @@ Example
 }
 ```
 # Use with Vencord
-For use with Vencord, either `@import url("https://raw.githubusercontent.com/zerol1ght/chatty-edit/master/theme.scss")` to use the pre-compiled version, or compile it for yourself and copy the contents over to your quick css file.
+For use with Vencord, either add `@import url("https://raw.githubusercontent.com/zerol1ght/chatty-edit/master/chatty-edit.css")` to the top of your quick css file to use the pre-compiled version, or compile it for yourself and copy the contents over to your quick css file.
 ## Acquiring [Sass](https://sass-lang.com)
 In order to compile the Sass yourself, you'll need to have Sass available on your system, for which a few options exist.
 
