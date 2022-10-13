@@ -247,7 +247,7 @@ code {
     border-radius: var(--chattyBorderRadius);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
-    background: rgb(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
@@ -338,6 +338,7 @@ code {
     font-size: 12px;
     background: rgba(235, 235, 228, 0.521);
     background-size: 400% 400%;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
@@ -369,6 +370,9 @@ div[id^="popout_"] {
 .profileBadges-31rDHI {
     background-color: transparent !important;
     box-shadow: 0px 0px 15px -3px black;
+}
+.accountProfilePopoutWrapper-3GskID {
+  left: 0px !important;
 }
 
 // Pfp misalignment fix

@@ -4,7 +4,7 @@ Chatty is a customizable sleek-looking Discord theme, intended for the Powercord
 Originally made by [mrrobboss](https://github.com/mrrobboss), now maintained by me.
 # Features
 - [X] Custom Background Images, by default daily images from [Unsplash](https://unsplash.com/)
-- [ ] BetterDiscord version
+- [X] BetterDiscord version
 # How to set a custom background image
 On powercord, go to "**settings --> themes --> quick css**" and paste this:
 ```css
@@ -43,6 +43,6 @@ Paste this in the Quick CSS and edit it
 # Contacts
 You can contact me on:
 - **Discord:** Light#0853
-  - *You can dm me or just @tag me in [Powercord's server](https://discord.gg/SA7VN6rUVb)*
+  - *You can dm me or just @tag me in [Replugged's server](https://discord.gg/s9aSD5Tfk3)*
 - **Mail:**  zerol1ght@protonmail.com
 
