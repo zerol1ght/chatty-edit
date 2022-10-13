@@ -21,7 +21,7 @@ Example
 # Updates
 I'll try to update the theme every time I see bugs or something that isn't working, if you notice a bug that is annoying you can contact me.
 # Images
-![image1](https://i.imgur.com/CVI0sUh.png)
+![image1](https://i.imgur.com/n86rIb1.png)
 
 # Customisation +
 Change this variables only if you know what you're doing!
