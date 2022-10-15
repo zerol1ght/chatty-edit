@@ -41,6 +41,7 @@ Follow those steps to install the theme on your client.
 - Open Quick CSS File.
 - Paste this ``` @import url(https://cdn.jsdelivr.net/gh/zerol1ght/chatty-edit@master/ChattyEdit.theme.css); ``` and save file.
 - Reload.
+> For additional support contact [@RivenSkaye](https://github.com/RivenSkaye)
 
 ​
 ### **OpenAsar**
